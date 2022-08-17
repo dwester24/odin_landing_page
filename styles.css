@@ -166,6 +166,7 @@ img {
     padding: 25px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 5px;
     gap: 150px;
 }
@@ -190,4 +191,14 @@ img {
     border: 3px white solid;
     border-radius: 5px;
     font-size: 18px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 50px;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+
 }
