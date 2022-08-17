@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Hero Section */
@@ -84,4 +85,47 @@ img {
     border-radius: 5px;
     color: #F9FAF8;
     width: 100px;
+}
+
+
+/* Info Section */
+.main_body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.info_cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.main_body h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+}
+.info_img {
+    width: 100px;
+    height: 100px;
+    border: 2px blue solid;
+    border-radius: 5px;
+}
+
+.info_text {
+    flex-wrap: wrap;
+    text-align: center;
 }
